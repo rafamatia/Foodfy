@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+:root{
+   --color-font: #111111;
+}
+body{
+   background-color: whitesmoke;
+   font-family: 'Roboto', sans-serif;
+}
+header{
+   margin: 20px 170px 0;
+}
+header strong{
+   font-weight: bold;
+}
+.header a{
+   font-size: 16px;
+   color: var(--color-font);
+   text-decoration: none;
+   padding-right: 15px;
+}
+
+header img{
+   width: 90px;
+   height: 30px;
+   margin-right: 150px;
+}
+.about{
+   width: 940px;
+   height: 360px;
+   background-color: #FBDFDB;
+   margin-left: 150px;
+   margin-top: 30px;
+   border-radius: 30px;
+   
+}
+.text h1{
+   font-size: 32px;
+   font-weight: bold;
+   padding-top: 150px;
+   margin-left: 150px;
+}
+.text p{
+   font-size: 18px;
+   line-height: 28px;
+   color: #000000;
+   opacity: 0.7;
+   margin-left: 150px;
+   max-width: 300px;   
+}
+.about img{
+   margin-top: 50px;
+   float: right;
+   padding-right: 100px;
+}
+
+/* === imagem ===  */
+.mais-acessadas{
+   width: 940px;
+   margin-left: 150px;
+   margin-top: 30px;   
+}
+.mais-acessadas h1{
+   color: var(--color-font);
+   font-size: 25px;
+   font-weight: bold;
+}
+.cards-acessadas{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+}
+.card-acessadas img{
+   width: 300px;
+   height: 120px;
+   border-radius: 15px;
+}
+.card-acessadas h3{
+   color: var(--color-font);
+   font-size: 18px;
+   padding: 5px 0;
+}
+.card-acessadas p{
+   font-size: 14px;
+   opacity: 0.5;
+   
+}
+
+
+/*==SOBRE==*/
+.texts{
+   width: 940px;
+   height: 90%;
+   margin: 30px auto;
+}
+.texts h1{
+   padding: 15px 0;
+   color: var(--color-font);
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.texts p{
+   color: #444444;
+   font-size: 15px;
+   line-height: 25px;
+
+}
+
+/* ==== Receitas ==== */
+
+header a3{
+   font-family: 'Roboto';
+   font-weight: bold;
+}
+
+.card__info{
+   font-family: 'Roboto';
+   font-weight: normal;
+   font-size: 14px;
+   color: #777777;
+   margin-top:5px;
+}
+
+/* === Modal.overlay === */
+
+.modal-overlay{
+   background: rgb(0, 0, 0, 0.6);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   opacity: 0;
+   visibility: hidden;
+}
+.modal{
+   background-color: #FFFFFF;
+   opacity: 100%;
+   width: 660px;
+   height: 413px;
+   margin: 26.4vh auto ;
+   position: relative;
+   border-radius: 16px;
+}
+
+.modal .close-modal{
+   font-family: 'Roboto';
+   font-weight: 'regular';
+   font-size: 16px;
+   color: #999999;
+   line-height: 19px;
+   position: absolute;
+   right: 281px;
+   bottom: 30px ;
+   cursor: pointer;
+
+}
+
+.modal img {
+   border-radius: 15px;
+   width: 600px;
+   height: 200px;
+   object-fit: cover;
+   margin: 30px 30px 10px 30px;
+}
+#nome_receita {
+   font-size: 24px;;
+   color: #111111;
+   text-align: center;
+   font-family: "Roboto";
+   font-weight: 'regular';
+}
+
+#chef_receita {
+   font-size: 18px;
+   line-height: 28px;
+   color: #777777;
+   text-align: center;
+   margin-bottom: 50px;
+   font-family: "Roboto";
+   font-weight: 'regular';
+}
+
+/* ====== utilizando MODAL ====== */
+
+.modal-overlay {
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   opacity: 0;
+   visibility: hidden;
+}
+
+.modal {
+   background-color: white;
+   width: 90%;
+   height: 90%;
+   margin: 5vh auto;
+   position: relative;
+}
+
+
+.modal .close-modal {
+   color: black;
+   position: absolute;
+   right: 8px;
+   top: 8px;
+   cursor:pointer;
+}
+
+
+.modal-overlay.active{
+   opacity: 1;
+   visibility: visible;
+}
+
+
+iframe {
+   width: 100%;
+   height: 90%;
+   position: absolute;
+   top: 6%;
+}
+
+/* ==== FOOTER ===== */
+.footer{
+   background-color: #eeeeee;
+   width:1231px;
+   height: 32px;
+   opacity: 100%;
+   position: absolute
+}
+
+.footer h1{
+   font-family: 'Roboto';
+   font-weight: normal;
+   font-size: 20px;
+   color: black;
+   text-align: center;
+   margin-top: 10px;
+}
+
+/* === PAGE RECEITA === */
+.recipe{
+   margin-bottom: 200px;
+}
+#img {
+   text-align: center;
+   padding: 30px;
+}
+
+#img img{
+   width: 1100px;
+   height: 400px;
+   border-radius: 30px;
+   
+}
+#ingredientes,
+#prepare,
+#information{
+   color: #111111;
+   margin-left: 150px;
+   max-width: 1100px;    
+}
+#ingredientes,
+#prepare,
+#information p{
+   text-align: justify;
+
+}
+.subtitle{
+   display: flex;
+}
+
+
+.display{
+   display:none;
+   transition: 500ms;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/8051chef.ico">
+        <meta charset="UTF-8">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style.css">
+
+        {%block title%}
+    
+            {%endblock%}
+        </head>
+        
+        <body>
+            <header>
+                <div class="header">
+                    <a href="/"><img src="assets/logo.png" alt=""></a>
+                    <a href="about">Sobre</a>
+                    <a href="recipe">Receitas</a>
+                </div>
+            </header>
+            {% block content%}
+                {%endblock%}
+
+                <footer>
+                    <div class="footer">
+                        <h1>Todos direitos reservados, receitas Foodfy.</h1>
+                    </div>
+                </body>
+            </html>
