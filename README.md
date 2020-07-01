@@ -27,7 +27,7 @@ Nesse desafio tivemos que refatorar, ou seja, reescrever algumas partes, do cód
 <hr />
 
 ## 🚀 Tecnologias
-Criação do servidor utilizando as seguintes tecnologias:
+Criação das seguintes tecnologias:
 <hr />
 
 - ✔️ NodeJS
@@ -38,10 +38,5 @@ Criação do servidor utilizando as seguintes tecnologias:
 
 - ✔️ CSS
 
+- ✔️ Nunjucks
 
-
-
-
-
-
-# Foodfy
