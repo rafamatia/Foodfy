@@ -11,7 +11,7 @@ Foodfy
 
 <hr />
 Sobre o Desafio rocket
-Construir um site completo para uma empresa de receitas chamada Foodfy.
+construir um site completo para uma empresa de receitas chamada Foodfy.
 <hr />
 
 <div align="center" >
